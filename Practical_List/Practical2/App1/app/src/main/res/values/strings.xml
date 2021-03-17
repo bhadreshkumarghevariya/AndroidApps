@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="btnYuvraj">YUVRAJ</string>
+    <string name="btnVirat">VIRAT</string>
+    <string name="btnDhoni">DHONI</string>
+    <string name="btnSachin">SACHIN</string>
+    <string name="btnRahul">RAHUL</string>
+    <string name="btnHarbhajan">HARBHAJAN</string>
+</resources>

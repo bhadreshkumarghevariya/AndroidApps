@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App2</string>
+    <string name="lblName">Name</string>
+    <string name="hintName">Name</string>
+    <string name="lblEmailAddress">Email Address</string>
+    <string name="hintEmailAddress">Email Address</string>
+    <string name="lblBirthDate">Birth Date</string>
+    <string name="hintBirthDate">Birth Date</string>
+    <string name="lblPassword">Password</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintAddress">Address</string>
+    <string name="lblAddress">Address</string>
+    <string name="lblWebsite">Website</string>
+    <string name="hintWebsite">Website</string>
+</resources>

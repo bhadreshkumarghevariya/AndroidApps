@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityWithRelativeLayout">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:padding="@dimen/imgPadding"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Name"
+        android:textSize="@dimen/txtSize"
+        android:padding="10dp"
+        android:layout_below="@id/img1"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/img1"
+        android:layout_toRightOf="@id/txtName"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/txtSemester"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Semester"
+        android:textSize="@dimen/txtSize"
+        android:padding="10dp"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:id="@+id/edtTxtSemester"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtTxtName"
+        android:layout_toRightOf="@id/txtSemester"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Address"
+        android:textSize="@dimen/txtSize"
+        android:padding="10dp"
+        android:layout_below="@id/txtSemester"
+        android:layout_alignParentLeft="true"/>
+
+    <EditText
+        android:id="@+id/edttxtAddress"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edtTxtSemester"
+        android:layout_toRightOf="@id/txtAddress"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:text="@string/btnSave"
+        android:textSize="@dimen/txtSize"
+        android:layout_margin="@dimen/btnMargin"
+        android:padding="@dimen/btnPadding"
+        android:layout_below="@id/txtAddress"
+        android:layout_toLeftOf="@id/btnEdit" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:text="@string/btnEdit"
+        android:textSize="@dimen/txtSize"
+        android:layout_margin="@dimen/btnMargin"
+        android:padding="@dimen/btnPadding"
+        android:layout_below="@id/edttxtAddress"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:text="@string/btnDelete"
+        android:textSize="@dimen/txtSize"
+        android:layout_margin="@dimen/btnMargin"
+        android:padding="@dimen/btnPadding"
+        android:layout_below="@id/edttxtAddress"
+        android:layout_toRightOf="@id/btnEdit" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Relative Layout"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

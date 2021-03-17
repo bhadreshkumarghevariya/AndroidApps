@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_above="@id/linearCenter"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnDhoni"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDhoni"
+            android:layout_weight="1"
+            android:padding="@dimen/btnPadding"
+            android:layout_margin="@dimen/btnMargin"
+            />
+
+        <Button
+            android:id="@+id/btnSachin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSachin"
+            android:layout_weight="1"
+            android:padding="@dimen/btnPadding"
+            android:layout_margin="@dimen/btnMargin"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnYuvraj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnYuvraj"
+            android:layout_weight="1"
+            android:padding="@dimen/btnPadding"
+            android:layout_margin="@dimen/btnMargin"
+            />
+
+        <Button
+            android:id="@+id/btnVirat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnVirat"
+            android:layout_weight="1"
+            android:padding="@dimen/btnPadding"
+            android:layout_margin="@dimen/btnMargin"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_below="@id/linearCenter">
+
+        <Button
+            android:id="@+id/btnHarbhajan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnHarbhajan"
+            android:layout_weight="2"
+            android:padding="@dimen/btnPadding"
+            android:layout_margin="@dimen/btnMargin"
+            />
+
+        <Button
+            android:id="@+id/btnRahul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRahul"
+            android:layout_weight="1"
+            android:padding="@dimen/btnPadding"
+            android:layout_margin="@dimen/btnMargin"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

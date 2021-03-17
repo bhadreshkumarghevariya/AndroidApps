@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="txtUniversityName">UKA Tarasadia Univesity</string>
+    <string name="txtUniversityAddress">Maliba Campus ,\nGopalVidyanagar ,\nBardoli-Mahuva Road ,\nTarsadi - 394 350.\nTal: Mahuva\nDist: Surat\nGujarat, INDIA.</string>
+    <string name="txtContactNumber">+91 2625 290020,\n+91 2625 290074</string>
+</resources>
